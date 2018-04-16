@@ -1,5 +1,10 @@
 # Sorting_algorithms
-Visualization of various sorting algorithms (e.g. bubble sort, insertion sort) on a randomized matrix of RGB values. Can also input your own image.
+Visualization of various sorting algorithms (e.g. bubble sort, insertion sort) on a randomized matrix of RGB values. Can also input your own image. Code is organized by a variety of functions.
+
+Note that images are sorted by perceived brightness using the following equation on the RGB values of each pixel:
+
+pixel_Brightness = sqrt(0.299*(pixel_Rvalue).^2 + 0.587*(pixel_Gvalue).^2 + 0.114*(pixel_Bvalue).^2);
+
 
 To run, navigate to the sort_select file in your MATLAB directory. 
 
